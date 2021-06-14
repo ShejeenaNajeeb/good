@@ -11,7 +11,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("sales_Dataset")
 
 #import dataset
-df = pd.read_csv('supermarket_sales.csv')
+df = pd.read_csv('supermarket.csv')
 #First thirty rows
 sales = df.head(30)
 #Display the table
